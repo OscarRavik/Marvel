@@ -1,0 +1,92 @@
+body {
+    width: 600px; /* Gjør at hele nettsiden er 600px bred*/
+    font-family: sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: dodgerblue;
+}
+
+ul {
+     margin: 0;
+     padding: 0;
+ }
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: gray;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background-color: lightcoral;
+    width: 150px;
+    text-align: center;
+    border: solid black 2px;
+    font-size: 20px;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px; /*gjør at jeg kan sentrere teksten vertikalt*/
+
+
+}
+
+.venstre {
+    border-right: none;
+}
+
+#hjem {
+    color: black;
+}
+
+nav li a:hover {
+    color: black;
+    background-color: red; /*når jeg har musen over vil disse atributtene gjelde for elementet a som ligger i li som ligger i nav*/
+}
+
+nav li a:active {
+    color: red;
+    background-color: blue;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#illustrasjonsbilde {
+    margin: 20px 60px 20px 60px; /*Plasserer bildet i midten med merginer oppe og nede i tillegg*/
+    width: 480px;
+    border: solid 1px black;
+}
+
+#toppbilde {
+    margin: 0;
+}
+
+#bunntekst {
+    border: 2px solid black;
+    box-sizing: border-box;
+    color: black;
+    background-color: lightcoral;
+    width: 600px;
+    margin: 0;
+    padding: 10px;
+    float: bottom;
+}
+
+#marvel {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+#marvel:hover {
+    color:blue;
+}
+
+
